@@ -1,24 +1,32 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSMultiThreading", "iOSMultiThreading\iOSMultiThreading.csproj", "{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidMultiThreading", "AndroidMultiThreading\AndroidMultiThreading.csproj", "{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|iPhoneSimulator = Debug|iPhoneSimulator
-		Release|iPhoneSimulator = Release|iPhoneSimulator
-		Debug|iPhone = Debug|iPhone
-		Release|iPhone = Release|iPhone
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
 		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Debug|iPhone.Build.0 = Debug|iPhone
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -29,8 +37,14 @@ Global
 		{784EF3B2-67BD-4A33-84F4-157E0F5F43BE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Ad-Hoc|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.AppStore|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
@@ -39,6 +53,12 @@ Global
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Release|iPhone.Build.0 = Release|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{F5F5FFB3-3E1D-43EC-A789-8085E7EE98D1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0EEDE1F-3C5D-4EFB-A72C-8AC6D29C6CAC}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = iOSMultiThreading\iOSMultiThreading.csproj
