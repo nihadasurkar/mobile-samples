@@ -42,7 +42,7 @@ namespace AndroidMultiThreading.Screens
 
         public void DisplayProgressbar()
         {
-            progressBar.Visibility = ViewStates.Invisible;
+            progressBar.Visibility = ViewStates.Visible;
             Log.Debug(TAG, "Should be showing the progress bar.");
         }
 
@@ -63,7 +63,7 @@ namespace AndroidMultiThreading.Screens
 
         public void HideProgessbar()
         {
-            progressBar.Visibility = ViewStates.Invisible;
+            progressBar.Visibility = ViewStates.Gone;
             Log.Debug(TAG, "Should NOT be showing the progress bar.");
         }
     }
